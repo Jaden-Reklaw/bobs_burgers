@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
+import './Navigation.css';
 
 class Navigation extends Component {
   render() {
@@ -24,24 +25,31 @@ class Navigation extends Component {
                 </a>
 
                 <a class="navbar-item">
-                    <Link to='/menu'>Menu</Link>
+                    <Link to='/about'>About</Link>
                 </a>
 
                 <div class="navbar-item has-dropdown is-hoverable">
                     <a class="navbar-link">
-                    More
+                        Our Menu
                     </a>
 
+                    {/* Menu Dropdown */}
                     <div class="navbar-dropdown">
                     <a class="navbar-item">
-                    <Link to='/about'>About</Link>
+                        <Link to='/menu/breakfast'>Breakfast</Link>
                     </a>
                     <a class="navbar-item">
-                        Contact
+                        <Link to='/menu/lunch'>Lunch</Link>
+                    </a>
+                    <a class="navbar-item">
+                        <Link to='/menu/dinner'>Dinner</Link>
+                    </a>
+                    <a class="navbar-item">
+                        <Link to='/menu/deals'>Deals</Link>
                     </a>
                     <hr class="navbar-divider" />
                     <a class="navbar-item">
-                        Report an issue
+                        Burger Of The Day
                     </a>
                     </div>
                 </div>
