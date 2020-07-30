@@ -23,7 +23,12 @@ class Navigation extends Component {
                 <a class="navbar-item">
                     <Link to='/'>Home</Link>
                 </a>
-
+                <a class="navbar-item">
+                    <Link to='/episodes'>Episodes</Link>
+                </a>
+                <a class="navbar-item">
+                    <Link to='/employees'>Employees</Link>
+                </a>
                 <a class="navbar-item">
                     <Link to='/about'>About</Link>
                 </a>

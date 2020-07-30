@@ -2,6 +2,7 @@ import React from 'react';
 
 //Import Components
 import Navigation from '../components/Navigation/Navigation';
+import Footer from '../components/Footer/Footer';
 
 import { HashRouter as Router, Route, Link } from 'react-router-dom';
 
@@ -22,7 +23,7 @@ function App() {
         <Route exact path='/' component={Home}/>
         <Route path='/menu' component={Menu}/>
         <Route path='/about' component={About}/>
-
+        <Footer />
       </div>
     </Router>
   );
