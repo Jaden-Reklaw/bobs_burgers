@@ -5,21 +5,29 @@ class Footer extends Component {
   render() {
     return (
       <footer>
-        <div class="container is-fullhd">
-            <div class="columns">
-                <div class="column">
-                    First column
+        <div className="container is-fullhd">
+            <div className="columns">
+                <div className="column">
+                    <h3>About Us</h3>
+                    <ul>
+                        <li><a>Our History</a></li>
+                        <li><a>Leadership Team</a></li>
+                        <li><a>Our History</a></li>
+                        <li><a>News & Notifications</a></li>
+                    </ul>
                 </div>
-                <div class="column">
-                    Second column
+                <div className="column">
+                    <h3>Careers</h3>
                 </div>
-                <div class="column">
-                    Third column
+                <div className="column">
+                    <h3>Services</h3>
                 </div>
-                <div class="column">
-                    Fourth column
+                <div className="column">
+                    <h3>Contact US</h3>
                 </div>
             </div>
+            <hr />
+            
         </div>
       </footer>
     )
