@@ -3,13 +3,14 @@ import './Home.css';
 
 //Import components to be used on this page
 import Hero from '../../Hero/Hero';
+import BurgerOfDay from '../../BurgerOfDay/BurgerOfDay';
 
 class Home extends Component {
   render() {
     return (
       <div className="body">
-        <h1>Home</h1>
         <Hero />
+        <BurgerOfDay />
       </div>
     )
   }

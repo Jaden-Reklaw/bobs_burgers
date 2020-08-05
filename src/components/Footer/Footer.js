@@ -5,7 +5,6 @@ class Footer extends Component {
   render() {
     return (
       <footer>
-        <div className="container is-fluid">
             {/* Main Footer*/}
             <div className="columns">
                 <div className="column">
@@ -15,6 +14,7 @@ class Footer extends Component {
                         <li><a>Leadership Team</a></li>
                         <li><a>Our History</a></li>
                         <li><a>News & Notifications</a></li>
+                        <li><a>Website Dev Team</a></li>
                     </ul>
                 </div>
                 <div className="column">
@@ -40,21 +40,19 @@ class Footer extends Component {
             {/* Sub Footer B Legal*/}
             <div className="columns is-mobile">
                 <div className="column">
-                    First column
+                    <a>Privacy</a>
                 </div>
                 <div className="column">
-                    Second column
+                    <a>Terms and Conditions</a>
                 </div>
                 <div className="column">
-                    Third column
+                    <a>Accessibility</a>
                 </div>
                 <div className="column">
                     Fourth column
                 </div>
             </div>
-            
-            
-        </div>
+            <p>© 2020</p>
       </footer>
     )
   }

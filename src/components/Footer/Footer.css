@@ -1,9 +1,14 @@
 
 
-.column {
+footer {
     background-color: #353839;
     color: whitesmoke;
 }
-i {
+
+.columns {
     padding: 12px;
+}
+
+i {
+    padding-left: 12px;
 }
