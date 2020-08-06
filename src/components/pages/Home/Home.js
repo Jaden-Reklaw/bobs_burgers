@@ -5,6 +5,7 @@ import './Home.css';
 import Hero from '../../Hero/Hero';
 import BurgerOfDay from '../../Hero/BurgerOfDay';
 import CastHero from '../../Hero/CastHero';
+import HScrollMenu from '../../HScrollMenu/HScrollMenu';
 
 class Home extends Component {
   render() {
@@ -13,6 +14,7 @@ class Home extends Component {
         <Hero />
         <BurgerOfDay />
         <CastHero />
+        <HScrollMenu />
       </div>
     )
   }
