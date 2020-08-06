@@ -3,3 +3,7 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.medium-hero {
+    padding: 2rem 0.5rem !important;
+}

@@ -3,7 +3,8 @@ import './Home.css';
 
 //Import components to be used on this page
 import Hero from '../../Hero/Hero';
-import BurgerOfDay from '../../BurgerOfDay/BurgerOfDay';
+import BurgerOfDay from '../../Hero/BurgerOfDay';
+import CastHero from '../../Hero/CastHero';
 
 class Home extends Component {
   render() {
@@ -11,6 +12,7 @@ class Home extends Component {
       <div className="body">
         <Hero />
         <BurgerOfDay />
+        <CastHero />
       </div>
     )
   }
