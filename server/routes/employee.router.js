@@ -12,15 +12,15 @@ const INTERNAL_SERVER_ERROR = 500;
 router.get('/get', (req, res) => {
     // returns all employees
     console.log('connected to database for get request');
-    // const queryText = `SELECT * FROM  "kittens" ORDER BY "name";`;
-    // pool.query(queryText)
-    // .then( (result) => {
-    //     res.send(result.rows);
-    // })
-    // .catch( (error) => {
-    //     console.log(`Error on query ${error}`);
-    //     res.sendStatus(INTERNAL_SERVER_ERROR);
-    // });
+    const queryText = `SELECT * FROM  "employees";`;
+    pool.query(queryText)
+    .then( (result) => {
+        res.send(result.rows);
+    })
+    .catch( (error) => {
+        console.log(`Error on query ${error}`);
+        res.sendStatus(INTERNAL_SERVER_ERROR);
+    });
 });
 
 module.exports = router;
