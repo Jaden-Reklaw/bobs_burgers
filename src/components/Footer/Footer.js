@@ -8,7 +8,7 @@ class Footer extends Component {
             {/* Main Footer*/}
             <div className="columns">
                 <div className="column">
-                    <h3>About Us</h3>
+                    <h2 className="header2">About Us</h2>
                     <ul>
                         <li><a>Our History</a></li>
                         <li><a>Leadership Team</a></li>
@@ -18,13 +18,13 @@ class Footer extends Component {
                     </ul>
                 </div>
                 <div className="column">
-                    <h3>Careers</h3>
+                    <h2 className="header2">Careers</h2>
                 </div>
                 <div className="column">
-                    <h3>Services</h3>
+                    <h2 className="header2">Services</h2>
                 </div>
                 <div className="column">
-                    <h3>Contact US</h3>
+                    <h2 className="header2">Contact US</h2>
                 </div>
             </div>
             {/* Sub Footer A Social Links */}

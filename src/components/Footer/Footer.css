@@ -12,3 +12,17 @@ footer {
 i {
     padding-left: 12px;
 }
+
+/* Footer links */
+footer a {
+    color: whitesmoke;
+}
+
+footer a:hover {
+    color: red;
+}
+
+/*  */
+.header2{
+    font-size: 1.75rem;
+}

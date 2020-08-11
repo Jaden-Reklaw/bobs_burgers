@@ -10,6 +10,7 @@ import { HashRouter as Router, Route } from 'react-router-dom';
 import Home from '../components/pages/Home/Home';
 import Menu from '../components/pages/Menu/Menu';
 import About from '../components/pages/About/About';
+import Employees from '../components/pages/Employees/Employees';
 
 //Needed to activate Bulma on the project
 //After npm install
@@ -26,6 +27,7 @@ function App() {
           <Route exact path='/' component={Home}/>
           <Route path='/menu' component={Menu}/>
           <Route path='/about' component={About}/>
+          <Route path='/employees' component={Employees}/>
         </div>
         <div className="buffer"></div>
         <Footer />

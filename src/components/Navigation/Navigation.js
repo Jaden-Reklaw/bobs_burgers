@@ -23,7 +23,7 @@ class Navigation extends Component {
                 
                     <Link className="navbar-item" to='/'>Home</Link>
                     <Link className="navbar-item" to='/episodes'>Episodes</Link>
-                    <Link className="navbar-item"to='/employees'>Employees</Link>
+                    <Link className="navbar-item" to='/employees'>Employees</Link>
                     <Link className="navbar-item" to='/about'>About</Link>
 
                 <div className="navbar-item has-dropdown is-hoverable">
