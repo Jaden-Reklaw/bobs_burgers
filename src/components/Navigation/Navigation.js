@@ -11,11 +11,11 @@ class Navigation extends Component {
                     <img src="./images/BB_logo.png" alt="Bob's Burger Logo" width="112" height="28" />
                 </a>
 
-                <a role="button" className="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                <div role="button" className="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
-                </a>
+                </div>
             </div>
 
             <div id="navbarBasicExample" className="navbar-menu">
@@ -27,9 +27,9 @@ class Navigation extends Component {
                     <Link className="navbar-item" to='/about'>About</Link>
 
                 <div className="navbar-item has-dropdown is-hoverable">
-                    <a className="navbar-link">
+                    <div className="navbar-link">
                         Our Menu
-                    </a>
+                    </div>
 
                     {/* Menu Dropdown */}
                     <div className="navbar-dropdown">
@@ -38,9 +38,9 @@ class Navigation extends Component {
                         <Link className="navbar-item" to='/menu/dinner'>Dinner</Link>
                         <Link className="navbar-item" to='/menu/deals'>Deals</Link>
                     <hr className="navbar-divider" />
-                    <a className="navbar-item">
+                    <div className="navbar-item">
                         Burger Of The Day
-                    </a>
+                    </div>
                     </div>
                 </div>
                 </div>

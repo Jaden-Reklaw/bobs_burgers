@@ -10,11 +10,11 @@ class Footer extends Component {
                 <div className="column">
                     <h2 className="header2">About Us</h2>
                     <ul>
-                        <li><a>Our History</a></li>
-                        <li><a>Leadership Team</a></li>
-                        <li><a>Our History</a></li>
-                        <li><a>News & Notifications</a></li>
-                        <li><a>Website Dev Team</a></li>
+                        <li><a href="/">Our History</a></li>
+                        <li><a href="/">Leadership Team</a></li>
+                        <li><a href="/">Our History</a></li>
+                        <li><a href="/">News & Notifications</a></li>
+                        <li><a  href="/">Website Dev Team</a></li>
                     </ul>
                 </div>
                 <div className="column">
@@ -40,13 +40,13 @@ class Footer extends Component {
             {/* Sub Footer B Legal*/}
             <div className="columns is-mobile">
                 <div className="column">
-                    <a>Privacy</a>
+                    <a href="/">Privacy</a>
                 </div>
                 <div className="column">
-                    <a>Terms and Conditions</a>
+                    <a href="/">Terms and Conditions</a>
                 </div>
                 <div className="column">
-                    <a>Accessibility</a>
+                    <a href="/">Accessibility</a>
                 </div>
                 <div className="column">
                     Fourth column

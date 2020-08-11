@@ -1,9 +1,5 @@
 import React, { Component } from 'react';
 
-//
-const d = new Date();
-let todaysDate = `${d.getDay()}/${d.getMonth()}/${d.getFullYear()}`;
-
 class CastHero extends Component {
     render() {
         return (
@@ -31,7 +27,7 @@ class CastHero extends Component {
                             </div>
                             <div className="column is-two-thirds">
                                 <figure className="image is-5by3">
-                                    <img src="https://i.redd.it/xlv1z1oy87d01.jpg" />
+                                    <img src="https://i.redd.it/xlv1z1oy87d01.jpg" alt="Bob's Burgers Cast"/>
                                 </figure>
                             </div>
                         </div>

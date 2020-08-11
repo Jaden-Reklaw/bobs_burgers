@@ -8,7 +8,7 @@ class Card extends Component {
             <div className='card equal-height'>
                 <div className='card-content is-flex is-horizontal-center'>
                     <figure className='image'>
-                        <img src='https://unsplash.it/64' />
+                        <img src='https://unsplash.it/64' alt="cards"/>
                     </figure>
                     
                 </div>

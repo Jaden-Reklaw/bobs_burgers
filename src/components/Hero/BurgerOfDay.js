@@ -13,7 +13,7 @@ class BurgerOfDay extends Component {
                         <div className="columns">
                             <div className="column is-two-thirds">
                             <figure className="image is-5by3">
-                                <img src="https://image.freepik.com/free-vector/tasty-burger-with-cheese-bacon_23-2147626929.jpg" />
+                                <img src="https://image.freepik.com/free-vector/tasty-burger-with-cheese-bacon_23-2147626929.jpg" alt="Bacon Burger"/>
                             </figure>
                             </div>
                             <div className="column">
