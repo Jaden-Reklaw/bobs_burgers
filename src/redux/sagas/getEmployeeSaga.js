@@ -7,7 +7,7 @@ function* fetchAllEmployeeSaga ( action ){
     try {
         console.log('fetchAllEmployeeSaga');
         //Making async AJAX (axios) request
-        //const response = yield axios.get('/api/employee/get');
+        const response = yield axios.get('/api/employee/get');
         //Once that is back successfully, dispatch action to the reducer
         //yield put({ type: 'SET_KITTENS', payload: response.data});
     } catch(error) {
