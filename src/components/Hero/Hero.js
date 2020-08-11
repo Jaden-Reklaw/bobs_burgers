@@ -13,7 +13,7 @@ class Hero extends Component {
                     <h2 className="subtitle">
                     Come meet our family and let us meat you!
                     </h2>
-                    <button class="button is-danger is-hovered">What's New</button>
+                    <button className="button is-danger is-hovered">What's New</button>
                 </div>
             </div>
         </section>

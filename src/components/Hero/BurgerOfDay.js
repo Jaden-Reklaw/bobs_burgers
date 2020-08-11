@@ -28,7 +28,7 @@ class BurgerOfDay extends Component {
                                 </h2>
                                 <p>Description</p>
                                 <br />
-                                <button class="button is-danger is-hovered">More Info ...</button>
+                                <button className="button is-danger is-hovered">More Info ...</button>
                             </div>
                         </div>
                     </div>

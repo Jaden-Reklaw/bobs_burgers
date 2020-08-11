@@ -27,7 +27,7 @@ class CastHero extends Component {
 
                                 </p>
                                 <br />
-                                <button class="button is-danger is-hovered">More Info ...</button>
+                                <button className="button is-danger is-hovered">More Info ...</button>
                             </div>
                             <div className="column is-two-thirds">
                                 <figure className="image is-5by3">

@@ -4,16 +4,16 @@ import './Card.css';
 class Card extends Component {
   render() {
     return (
-        <div class='column is-one-quarter'>
-            <div class='card equal-height'>
-                <div class='card-content is-flex is-horizontal-center'>
-                    <figure class='image'>
+        <div className='column is-one-quarter'>
+            <div className='card equal-height'>
+                <div className='card-content is-flex is-horizontal-center'>
+                    <figure className='image'>
                         <img src='https://unsplash.it/64' />
                     </figure>
                     
                 </div>
-                <div class="container">
-                    <div class="notification">
+                <div className="container">
+                    <div className="notification">
                         <h1>Hello World</h1>
                         <h2>Description</h2>
                         <button className="button is-primary">Click</button>

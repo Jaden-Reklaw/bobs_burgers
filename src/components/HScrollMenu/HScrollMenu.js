@@ -5,8 +5,8 @@ import Card from '../Card/Card';
 class HScrollMenu extends Component {
   render() {
     return (
-      <div class="scrollmenu">
-        <div class="columns">
+      <div className="scrollmenu">
+        <div className="columns">
           <Card />
           <Card />
           <Card />

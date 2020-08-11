@@ -9,7 +9,7 @@ class Employees extends Component {
   }
 
   componentDidMount() {
-    this.props.dispatch({type: 'FETCH_KITTENS'});
+    this.props.dispatch({type: 'FETCH_ALL_EMPLOYEE'});
   }
 
   render() {
