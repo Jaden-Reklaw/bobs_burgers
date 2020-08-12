@@ -4,24 +4,29 @@ import './Card.css';
 class Card extends Component {
   render() {
     return (
-        <div className='column is-one-quarter'>
-            <div className='card equal-height'>
-                <div className='card-content is-flex is-horizontal-center'>
-                    <figure className='image'>
-                        <img src='https://unsplash.it/64' alt="cards"/>
+        <div className="column is-one-third">
+            <div className="card">
+                <div className="card-image">
+                    <figure className="image is-4by3">
+                    <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image" />
                     </figure>
-                    
                 </div>
-                <div className="container">
-                    <div className="notification">
-                        <h1>Hello World</h1>
-                        <h2>Description</h2>
-                        <button className="button is-primary">Click</button>
+                <div className="card-content">
+                    <div className="media">
+                    <div className="media-content">
+                        <p className="title is-4">Card Title</p>
+                        <p className="subtitle is-6">Card Sub Title</p>
+                        
+                    </div>
+                    </div>
+
+                    <div className="content container">
+                    <p>Description Goes Here</p><br />
                     </div>
                 </div>
             </div>
+
         </div>
-         
     )
   }
 }

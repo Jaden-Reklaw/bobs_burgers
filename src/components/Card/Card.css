@@ -5,3 +5,7 @@
 .image {
     width: 100%;
 }
+
+div.scrollmenu {
+    white-space: pre-wrap;
+}

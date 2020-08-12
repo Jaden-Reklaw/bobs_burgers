@@ -14,8 +14,23 @@ class Employees extends Component {
 
   render() {
     return (
-      <div>
-        <h1>Employees</h1>
+      <div className="body">
+        <h1 className="title">Employees</h1>
+        
+        {this.props.employees.map((employee, index) =>
+                    <div key={employee.id}>
+                      <h1>{employee.first_name} {employee.last_name}</h1>
+                      <h2>Voice Actor: {employee.voice_actor}</h2>
+                      <h2>Bio</h2>
+                      <p>{employee.bio}</p>
+                      <h2>Age: {employee.age}</h2>
+                      <figure className="image is-128x128">
+                      <img src={employee.img_path} />
+                      </figure>
+                      
+                    </div>
+                    )
+                }
       </div>
     )
   }
@@ -23,7 +38,7 @@ class Employees extends Component {
 
 //Get redux store
 const mapStateToProps = reduxState => ({
-  
+  employees: reduxState.rootReducer.employees
 });
 
 export default connect(mapStateToProps)(Employees);
