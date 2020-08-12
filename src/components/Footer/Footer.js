@@ -14,14 +14,23 @@ class Footer extends Component {
                         <li><a href="/">Leadership Team</a></li>
                         <li><a href="/">Our History</a></li>
                         <li><a href="/">News & Notifications</a></li>
-                        <li><a  href="/">Website Dev Team</a></li>
                     </ul>
                 </div>
                 <div className="column">
                     <h2 className="header2">Careers</h2>
+                        <ul>
+                            <li><a  href="/">Meet the Developers</a></li>
+                            <li><a href="/">Join Our Team</a></li>
+                            <li><a  href="/">Working With Us</a></li>
+                        </ul>
                 </div>
                 <div className="column">
                     <h2 className="header2">Services</h2>
+                        <ul>
+                            <li><a  href="/">Need a Website or Application</a></li>
+                            <li><a  href="/">Need UX Design Consulting</a></li>
+                            <li><a  href="/">Become a Programmer or UX Designer</a></li>
+                        </ul>
                 </div>
                 <div className="column">
                     <h2 className="header2">Contact US</h2>
